@@ -1,0 +1,22 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./index.ts",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.ts",
+    "./schema": "./schema.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "pg": "^8.20.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "@repo/typescript-config": "workspace:*"
+  }
+}
